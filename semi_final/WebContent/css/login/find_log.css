@@ -1,0 +1,219 @@
+@charset "UTF-8";
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, a, address, em, img, strong, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, video {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    border: 0;
+    vertical-align: baseline;
+}
+
+body {
+    line-height: 1.5;
+    color: #000;
+    font-size: 12px;
+    background: #f7f7f7;
+}
+
+#find #warp {
+    position: relative;
+    min-width: 320px;
+    max-width: 650px;
+    background: #fff;
+    margin: 40px auto 0;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+    border-radius: 8px;
+}
+
+#find #header {
+    position: relative;
+    height: 56px;
+    overflow: hidden;
+    background: #F8CAC6;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+
+#find #header .logo{
+	display: block;
+    width: 160px;
+    margin: 0 auto;
+}
+
+#find_container{
+	position: relative;
+    overflow: hidden;
+    margin: 0 45px;
+    
+}
+
+#find_form{
+	display: block;
+}
+
+#find_container #find_title{
+	height: 20px;
+    color: #000;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -1px;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    padding: 50px 10px 30px;
+    font-weight: bold;	
+}
+
+
+/* 입력창 */
+.box_info_write{
+    clear: both;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    padding: 0 30px;
+}
+
+.box_info_write .write_input dt {
+    clear: both;
+    position: relative;
+    height: 24px;
+    line-height: 24px;
+    padding: 15px 0 6px;
+}
+
+.box_info_write .write_input dt .title {
+    float: left;
+    color: #000;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+}
+
+.box_info_write .write_input dt .red_bullet {
+    display: inline-block;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    text-indent: -999px;
+    border: 1px solid #b92d00;
+    border-radius: 2px;
+    background: #b92d00;
+    margin-left: 3px;
+    vertical-align: 8px;
+}
+
+.box_info_write .write_input dt:after {
+    clear: both;
+    display: table;
+    content: '';
+}
+
+.box_info_write .write_input dd {
+    clear: both;
+    position: relative;
+}
+
+/* 입력창 블록 */
+.box_info_write .write_input dd .text_box {
+    position: relative;
+    display: block;
+    height: 40px;
+    overflow: hidden;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 5px;
+    background: #fff;
+    box-sizing: border-box;  
+}
+.box_info_write .write_input .my_Q{
+	margin: 0 0 10px 0;
+}
+.box_info_write .write_input dd .text_box select{
+	position: relative;
+    width: 100%;
+    height: 38px;
+    color: #555;
+    font-size: 15px;
+    border: 0;
+    border-radius: 5px;
+    background: #eee;
+    outline: 0;
+    padding: 8px 13px 10px 17px;
+    vertical-align: top;
+    z-index: 1;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    
+}
+/* 입력창 */
+.box_info_write .write_input dd .text_box input.input_text {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 38px;
+    overflow: hidden;
+    color: #000;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: -1px;
+    border: 0;
+    border-radius: 5px;
+    background: #fff;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    outline: 0;
+    -webkit-appearance: none;
+}
+
+
+/*  포커스 반응  */
+.box_info_write .write_input dd .text_box input.input_text:focus{
+	border : 2px solid #B43233;
+	background: rgba(222, 101, 98, 0.15);
+}
+
+.box_info_write .write_input dd .text_box input.input_text:focus::placeholder{
+	color: #B43233
+} 
+
+
+/* 입력 조건 경고창 규격 */
+.box_info_write .write_input .text_alert {
+    padding: 4px 0 !important;
+}
+
+
+/* 입력 조건 격고창 폰트*/
+#find_container .text_alert p {
+    position: relative;
+    color: #b92d00;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -1px;
+    word-break: break-all;
+    padding-left: 15px;
+}
+
+#find_container .btn_bottom {
+    clear: both;
+    text-align: center;
+    background: #fff;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+#find_container .btn_bottom button {
+    width: 200px;
+    height: 40px;
+    overflow: hidden;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: -1px;
+    border-radius: 5px;
+    background: #DE6562;
+    vertical-align: top;
+    cursor: pointer;
+    border: #DE6562;
+    
+}
+
+

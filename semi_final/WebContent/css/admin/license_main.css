@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+#mp1wrapper {
+	margin: 0 auto;
+    width: 1000px;
+    min-height: calc(100vh - 100px);
+}
+
+#mp1title {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: rgb(180, 50, 51);
+	margin: 0 0 0 3.2em;
+	text-align: left;
+}
+
+/*********************************************************************************/
+/* LICENSE PAGE                                                        */
+/*********************************************************************************/
+
+#imgs img#bgimg {
+	width: 70%;
+	height: 310px;
+	margin: 0 auto;
+	display: block;
+} 
+
+div#pfimgform {
+	border-radius: 100%;
+    margin: -61px 0 0 0;   
+    position: relative;
+    text-align: center;
+}
+
+div#pfimgform img {
+	border-radius: 100%;
+    display: block;
+    width: 9em;
+    height: 9em;
+    margin: 0 auto;
+}
+
+div#mp1btn {
+	position: absolute;
+    right: 10em;
+    top: 4.5em;
+}
+
+#mp1button {
+	background-color: #DE6562;
+	border-radius: 4px;
+	color: #ffffff !important;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 700;
+	height: 2.5em;
+	line-height: 2.5em;
+	padding: 0 2.2em;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	white-space: nowrap;
+	font-size: 0.8em;
+}
+
+#mp1button:hover {
+	background-color: #B43233;
+}
+
+
+/*********************************************************************************/
+/* 나의 가게 현황                                                      */
+/*********************************************************************************/
+
+#mp1wrapper1 {
+	background-color: rgb(248, 202, 198);
+    height: 155px;
+    width: 500px;
+    margin: 7px auto;
+    text-align: center;
+}
+
+#mp1wrapper2 {
+	width: 150px;
+    height: 155px;
+    display: inline-block;
+    position: relative;
+}
+
+#mp1column1, 
+#mp1column2, 
+#mp1column3 {
+	display: inline-block;
+    position: relative;
+	width: 6.2em;
+	height: 6.2em;
+	border: 1px solid #919191;
+	border-radius: 50%;
+	margin: 10px 20px;
+	background-color: rgba(224, 224, 224, 0.49);
+	
+}
+
+#mp1couponicon {
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    top: 1em;
+}
+
+#mp1count {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    top: 1em;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+#mp1count {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    top: 1em;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+#mp1columntt {
+    position: relative;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+/*********************************************************************************/
+/* 나의 가게 쿠폰, 리뷰 테이블                             */
+/*********************************************************************************/
+
+#mp1button3 {
+	font-size: 1.7em;
+	background-color: #FFF;
+	margin: 0 0 0 30em;
+}
+
+#mp1wrapper3 {
+	position: relative; 
+	margin : 0 auto;
+	width: 46em;
+	height: 9em;
+	display: -ms-flexbox;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-clip: border-box;
+	border-radius: .25rem;
+	margin: 0 auto;
+}
+
+#mp1table {
+	width:43em;
+    margin: 0 auto;
+}
+
+#mp1table td {
+	text-align: center; 
+	font-size: 10pt
+}
+
+#mp1table th {
+	background-color:rgb(248, 202, 198);
+	font-weight:500;
+}
+
+#mp1table tr:nth-child(even) {
+	background:#fef4f3;
+}

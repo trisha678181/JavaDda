@@ -1,0 +1,240 @@
+@charset "UTF-8";
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, a, address, em, img, strong, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, video {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    border: 0;
+    vertical-align: baseline;
+}
+
+body {
+    line-height: 1.5;
+    color: #000;
+    font-size: 12px;
+    background: #f7f7f7;
+}
+
+
+
+#chs_account_type #ac_warp {
+    position: relative;
+    min-width: 320px;
+    max-width: 650px;
+    background: #fff;
+    margin: 40px auto 0;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+    border-radius: 8px;
+}
+
+
+#chs_account_type #header{
+	position: relative;
+    height: 56px;
+    overflow: hidden;
+    background: #F8CAC6;
+    padding-top: 15px;
+    padding-bottom: 20px;
+
+}
+
+#chs_account_type #header .logo{
+	display: block;
+    width: 165px;
+    margin: 0 auto;
+}
+
+
+#ac_02_container{
+	position: relative;
+    overflow: hidden;
+    padding: 0 45px;
+}
+
+.account_step_02{
+	padding-top: 34px;
+}
+
+.account_step_02 .box_check_policy{
+	clear: both;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.account_step_02 .box_check_policy .sub_text {
+    color: #000;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.5px;
+    word-break: break-all;
+    margin: 0 30px;
+    padding-bottom: 6px;
+    font-weight: bold;
+}
+
+
+.account_step_02 .box_check_policy .chs_notice_text{
+	    margin: 0 30px;
+    line-height: 18px;
+    letter-spacing: -.7px;
+    color: #888;
+    font-size: 13px;
+}
+
+.account_step_02 .box_check_policy .policy_check{
+	position: relative;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 30px;
+}
+
+.join_step_1 .box_check_policy .policy_check input {
+    position: absolute;
+    top: 13px;
+    left: 30px;
+    width: 24px;
+    height: 24px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    z-index: -1;
+}
+
+.join_step_1 .box_check_policy .policy_check label {
+    display: block;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    background: #fff;
+    padding-left: 32px;
+    cursor: pointer;
+}
+
+
+.account_step_02 .box_check_policy .check_total {
+    border-bottom: 3px solid #f1f1f1;
+}
+
+
+
+.account_step_02 .box_check_policy .check_total label {
+    color: #B43233;
+    font-size: 16px;
+}
+
+
+.account_step_02 .box_check_policy {
+    clear: both;
+    position: relative;
+    overflow: hidden;
+}
+
+.account_step_02 .box_check_policy .policy_check {
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 30px;
+}
+
+.account_step_02 .box_check_policy .policy_check label strong {
+    color: #DE6562;
+}
+
+.all_view {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.all_view .btn_all {
+    color: #888;
+    font-size: 12px;
+}
+
+.account_step_02 .box_check_policy .policy_text {
+    position: relative;
+    clear: both;
+    max-height: 65px;
+    overflow: hidden;
+    overflow-y: auto;
+    background: #f8f8f8;
+}
+
+.account_step_02 .box_check_policy .policy_text .text_inner {
+    color: #000;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.5px;
+    word-break: break-all;
+    padding: 20px 25px;
+}
+
+.account_step_02 .box_check_policy .policy_text .text_inner h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+#ac_02_container .text_alert {
+    padding: 8px 0;
+}
+
+.account_step_02 .box_check_policy .text_alert {
+    margin: 0 25px;
+}
+
+#ac_02_container .text_alert p {
+    position: relative;
+    color: #b92d00;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -1px;
+    word-break: break-all;
+    padding-left: 15px;
+}
+
+#ac_02_container .text_alert p:before {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 5px;
+    height: 5px;
+    border: solid #b92d00;
+    border-width: 0 0 1px 1px;
+    content: '';
+}
+
+
+
+#ac_02_container .btn_bottom {
+    clear: both;
+    text-align: center;
+    background: #fff;
+    padding-bottom: 40px;
+}
+
+.account_step_02 .btn_bottom {
+    padding-top: 36px;
+}
+
+
+#ac_02_container .btn_bottom button {
+    width: 180px;
+    height: 45px;
+    overflow: hidden;
+    color: #fff;
+    font-size: 20px;
+    line-height: 43px;
+    letter-spacing: -0.5px;
+    border: 1px solid #DE6562;
+    border-radius: 15px;
+    background: #DE6562;
+    padding: 0;
+    vertical-align: top;
+    cursor: pointer;
+}

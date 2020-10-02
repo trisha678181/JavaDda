@@ -1,0 +1,475 @@
+@charset "UTF-8";
+
+/* Wrapper */
+
+	body {
+	margin: 0;
+	}
+
+	#main2-wrapper {
+		min-height: calc(100vh - 100px);
+		width: 100%;
+		margin: 0 auto;
+		opacity: 1;
+		filter: none;
+		-moz-transition: opacity 1s ease, -moz-filter 1s ease;
+		-webkit-transition: opacity 1s ease, -webkit-filter 1s ease;
+		-ms-transition: opacity 1s ease, -ms-filter 1s ease;
+		transition: opacity 1s ease, filter 1s ease;
+		padding:0;
+		margin: 0em auto;
+		background: #f8cac64d;
+	
+	}
+
+	body.is-loading #wrapper {
+		opacity: 0;
+		-moz-filter: blur(1px);
+		-webkit-filter: blur(1px);
+		-ms-filter: blur(1px);
+		filter: blur(1px);
+	}
+
+	body.is-covered #wrapper {
+		-moz-filter: blur(3px);
+		-webkit-filter: blur(3px);
+		-ms-filter: blur(3px);
+		filter: blur(3px);
+	}
+	
+	/* Header */
+	
+	#m2header {
+	position: relative;
+    margin: 2em 0em 1em 0;
+	
+	}
+
+	#m2header p strong {
+	font-size: 30px;
+	}
+	
+	#m2header p {
+	display: inline-block;
+	magin : 10px, auto;
+	font-size: 1.3em;
+	
+	}
+	
+	/****************************/
+	/*******이미지 박스 ************/
+	/******************************/
+	
+	
+	/*maimgbox*/
+	
+#maimgbox{
+	width : 700px;
+	margin: 0 auto;
+	margin-bottom: 150px;
+ 
+}	
+	
+#m2div {
+	display: inline-block;
+	float : right;
+	magin : 10px, auto;
+    height: 41px;
+    width: 300px;
+    border: 1px solid #DE6562;
+    background: #fff;
+    position: relative;
+    align-content: center;
+}
+
+
+
+#m2input {
+   font-size: 16px;
+   width: 225px;
+   padding: 10px;
+   border: 0px;
+   outline: none;
+   float: left;
+   margin: 1px 0;
+}
+
+#m2btn {
+    width: 50px;
+    height: 41px;
+    border: 0px;
+    background: #DE6562;
+    outline: none;
+    float: right;
+    color: #fff;
+}
+	
+	
+	
+		/* Thumbnails */
+
+#mainn{
+/* 	margin : 4em auto; */
+/* 	width: 100%; */
+	align-content: center;
+    margin: 2em auto;
+    padding: 2em 0;
+    width: 100%;
+}
+
+.thumbnails {
+	width : 700px;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-flex-direction: row;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	position: relative;
+	margin: 0 0 1em -1em;
+}
+
+	.thumbnails a {
+		-moz-transition: all 0.2s ease;
+		-webkit-transition: all 0.2s ease;
+		-ms-transition: all 0.2s ease;
+		transition: all 0.2s ease;
+		border-bottom: none;
+		display: block;
+		width: 100%;
+		margin: 0 0 1em 0;
+		text-align: center;
+/* 		border-radius: 4px; */
+		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
+		background-color: rgba(255, 255, 255, 0.075);
+		cursor: pointer;
+		outline: 0;
+		overflow: hidden;
+		
+	}
+
+		.thumbnails a img {
+			display: block;
+			width: 100%;
+/* 			border-top-left-radius: 4px; */
+/* 			border-top-right-radius: 4px; */
+			background: #000000;
+		}
+		
+		.thumbnails a div {
+			z-index :99999;
+			position: relative;
+			width: 100%;
+			top : 50%;
+/* 			border-top-left-radius: 4px; */
+/* 			border-top-right-radius: 4px; */
+			background: #000000;
+		}
+		
+		.thumbnails a:hover img {
+			display: block;
+			width: 100%;
+/* 			border-top-left-radius: 4px; */
+/* 			border-top-right-radius: 4px; */
+/* 			opacity: 0.35; */
+/* 			transition: all 0.45s ease-in-out; */
+/* 			transform: scale(1.18); */
+		}
+		
+
+		.thumbnails a:hover {
+/* 			background-color: black; */
+			
+		}
+		
+		
+
+	.thumbnails > div {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-flex-direction: column;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		width: calc(100% / 3);
+		padding-left: 1em;
+	}
+
+		.thumbnails > div > :last-child {
+			margin-bottom: 0;
+		}
+
+	@media screen and (max-width: 1280px) {
+
+		.thumbnails {
+			margin: 0 0 0 0;
+		}
+			.thumbnails a {
+				margin: 0 0 1em 0;
+			}
+
+			.thumbnails > div {
+				padding-left: 1em;
+			}
+
+	}
+
+	@media screen and (max-width: 980px) {
+
+		.thumbnails h3 {
+			font-size: 0.8em;
+		}
+
+	}
+
+	@media screen and (max-width: 480px) {
+
+		.thumbnails {
+			display: block;
+		}
+
+			.thumbnails a {
+				margin: 0 0 2em 0 !important;
+			}
+
+			.thumbnails > div {
+				display: block;
+				width: 100%;
+			}
+
+				.thumbnails > div:last-child > :last-child {
+					margin-bottom: 0 !important;
+				}
+
+			.thumbnails h3 {
+				font-size: 1em;
+			}
+
+	}
+	
+		/*********************************************************************************/
+/* SIDEBAR                                                         */
+/*********************************************************************************/
+
+
+/**SIDEBAR */
+
+/**SIDEBAR */
+#left {
+	float: left;
+	width: 200px;
+	position: absolute;
+	left: 0;
+	margin-right: 560px;
+	z-index: 999990;
+	top: 110px;
+	margin-left: 30px;
+}
+
+#masidebar {
+	float: left;
+	width: 150px;
+	text-align: center;
+	padding: 10px 0;
+	overflow: hidden;
+	margin: 10px;
+}
+
+#weathericon,
+#airicon {
+	width: 45px;
+    height: 45px;	
+}
+
+#weatherinfo {
+	font-family: NanumSquareRound;
+	display: inline-block;
+	width: 120px;
+	height: 30px;
+    position: absolute;
+    top: 8px;
+    padding: 5px;
+    left: 20px;
+    font-size: 12pt;
+    font-weight: 600;
+}
+
+#airinfo {
+	font-family: NanumSquareRound;
+	display: inline-block;
+	width: 120px;
+	height: 30px;
+	position: absolute;
+	top: 63px;
+    padding: 5px;
+    left: 46px;
+    font-size: 12pt;
+    font-weight: 600;
+    text-align: left;
+}
+
+}
+#weather {
+	position: relative;
+}
+
+#left a {
+	display: inline-block;
+}
+
+td#weatherinfo img {
+	width: 45px;
+	height: 45px;
+}
+
+#right {
+	float: right;
+    position: absolute;
+    left: 0;
+    margin-left: 93%;
+}
+
+.rightt {
+	width: 35px;
+	height: 35px;
+}
+
+#side-top>img{
+	padding-bottom: 20px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Quattrocento);
+.snip1361 {
+  
+  position: relative;
+  overflow: hidden;
+  margin: 0 5% 8% 0;
+  min-width: 100%;
+  max-width: 100%;
+  width: 100%;
+  color: #141414;
+  text-align: left;
+  line-height: 1.4em;
+  font-size: 13px;
+}
+.snip1361 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5 ease;
+}
+.snip1361 img {
+  max-width: 100%;
+  vertical-align: top;
+}
+.snip1361 figcaption {
+  position: absolute;
+  top: calc(100%);
+  width: 100%;
+  background-color: #000;
+  padding: 0px 0px 100%;
+  opacity : 0.8;
+  align-content :vertical;
+}
+  .snip1361 figcaption:before {
+  position: absolute;
+  content: '';
+  z-index: 2;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-image: -webkit-linear-gradient(top, transparent 0%, #000 100%);
+  background-image: linear-gradient(to bottom, transparent 0%, #000 100%);
+}
+.snip1361 h3,
+.snip1361 p {
+	opacity : none;
+  padding-top : 20%;
+  text-align : center;
+  color :#fff;
+}
+.snip1361 h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2em;
+/*   font-family: 'Oswald', Arial, sans-serif; */
+  text-transform: uppercase;
+}
+.snip1361 p {
+  padding: 1%;
+  font-size: 13px;
+  letter-spacing: 1px;
+  
+}
+.snip1361 a {
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+.snip1361:hover figcaption,
+.snip1361.hover figcaption {
+  top: 0px;
+}
+#arrayBox{
+/* 	margin: auto 0 ; */
+}
+
+/****************카테고리 바******************/
+#select_box{
+	min-width: 700px;
+	padding: 0em 3em;
+    margin: 0em 23em;
+    border: 5px solid #F8CAC6;
+}
+
+#placeCategory{
+    padding: 1em 0 0 0;
+}
+
+#all_m{
+	width : 36px;
+	display : inline-block;
+	font-weight : bold;
+}
+#catg_m{
+	display : none;.
+	transition: display 10s ease .10s; 
+}
+#placeCategory ul li{
+/* 	float : left; */
+	margin-left : 1em;
+	display : inline-block;
+    text-decoration: none;
+    font-size: 16px;
+}
+#all_m:hover{
+	cursor:pointer;
+	color: #DE6562;
+}
+
+#placeCategory:hover #catg_m{
+	display: inline-block;
+}
+#placeCategory:hover #all_m{
+	color: #DE6562;
+}
+#catg_m li:hover {
+	cursor:pointer;
+	color: #DE6562;
+}
+#car{
+	width: 10px;
+	height: 10px;
+	
+}
+

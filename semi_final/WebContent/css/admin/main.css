@@ -1,0 +1,144 @@
+body {
+	padding: 0px;
+	font-size: 12pt;
+	font-weight: 300;
+	color: #444444;
+	min-height: calc(100vh - 100px);
+}
+
+a {
+	color: #2980b9;
+	text-decoration: none;
+}
+
+#adminBox {
+	margin: 0em auto;
+	width: 1000px;
+}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+#admin_menu {
+	width: 250px;
+	background: #f8cac6;
+	float: left;
+	height: 550px;
+}
+
+#admin_menu ul {
+	margin-top: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#admin_menu li {
+	border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+#admin_menu li a {
+	display: block;
+	padding: 2em 1.5em;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: black;
+	text-align: left;
+}
+
+#admin_menu>ul>li a:hover {
+	color: white;
+	background-color: #de6562
+}
+
+#admin_menu>ul>li ul {
+	display: none;
+}
+
+#admin_menu>ul>li>ul>li>a {
+	display: block;
+	text-align: center;
+}
+
+#admin_menu>ul>li>ul li ul {
+	display: none;
+}
+
+#admin_menu>ul>li>ul li li a {
+	display: block;
+}
+
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+#admin_main {
+	overflow: hidden;
+	width: 700px;
+	background: #FFF;
+	text-align: center;
+}
+
+#admin_list_search {
+	text-align: right;
+}
+
+#admin_list_search input {
+	border: 1px solid rgb(68, 68, 68);
+	padding: 1px 2px;
+}
+
+/* table */
+#tablename {
+	font-size: 18pt;
+}
+
+#admin_table {
+	border-collapse: collapse;
+	text-align: left;
+	line-height: 1.6;
+	border: 1px solid #ccc;
+	margin: 20px 10px;
+	width: 100%;
+	height:
+}
+
+#admin_table thead {
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	background: #f8cac6;
+}
+
+#admin_table thead th {
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	color: #fff;
+}
+
+#admin_table tbody th {
+	width: 150px;
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+	background: #f8cac6;
+}
+
+#admin_table td {
+	width: 350px;
+	padding: 10px;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+}
+
+#admin_list_button button {
+	border-radius: 50%;
+	background-color: #f8cac6;
+	width: 30px;
+	height: 30px;
+}
+
+#admin_list_button button:hover {
+	background-color: #de6562;
+}

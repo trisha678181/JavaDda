@@ -1,0 +1,94 @@
+/* admin_main 과 겹치는 부분은 admin_main.css 에서 받아오도록 함 */
+
+/*********************************************************************************/
+/* user_info                                                                      */
+/*********************************************************************************/
+#admin_main {
+	overflow: hidden;
+	width: 700px;
+	background: #FFF;
+	text-align: center;
+}
+
+#user_info {
+	float: left;
+	height: 550px;
+	padding: 20px;
+	background: #FFF;
+	text-align: left;
+	border: 1.5px solid #ddd;
+	overflow: hidden;
+	width: 297px;
+	height: 517px;
+	padding: 15px;
+	background: #FFF;
+	text-align: left;
+	margin-left: 1em;
+}
+
+#info_hr {
+	border: 0.5px solid #ddd;
+	width: 200px;
+	margin-left: 0;
+}
+
+#info_img {
+	width: 150px;
+	height: 150px;
+	border-radius: 70%;
+	text-align: center;
+	margin-left: 77px;
+}
+
+#info_nik {
+	text-align: center;
+	font-size: 15pt;
+	font-weight: 700;
+}
+
+#user_info2 {
+	overflow: hidden;
+	width: 330px;
+	height: 560px;
+	float: left;
+	margin-left: 1em;
+}
+
+#info_couple, #info_acti {
+	border: 1.5px solid #ddd;
+	overflow: hidden;
+	width: 297px;
+	padding: 15px;
+	background: #FFF;
+	text-align: left;
+	line-height: 2em;
+}
+
+#info_couple {
+	height: 270px;
+}
+
+#info_acti {
+	height: 198px;
+	margin-top: 1em;
+}
+
+#info_couple_hr {
+	border: 0.5px solid #ddd;
+	width: 200px;
+	margin-left: 5px;
+}
+
+#admin_back_list {
+	text-align: center;
+}
+
+#admin_back_list button {
+	background: #F8CAC6;
+	border: 1px solid #ccc;
+	margin: 0 auto;
+}
+
+#admin_back_list button:hover {
+	background: #de6562;
+}

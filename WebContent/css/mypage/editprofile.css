@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+@font-face { font-family: 'NanumSquareRound'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+#mp2wrapper {
+	font-family: NanumSquareRound;
+	margin: 0 auto;
+	width: 1000px;
+	min-height: calc(100vh - 100px);
+	position: relative;
+}
+
+#mp2title {
+	font-size: 17pt;
+	color: #DE6562;
+	text-align: center;
+}
+
+#mp2hr {
+	border: 0.5px solid #DE6562;
+	width: 180px;
+	margin: 0 auto;
+}
+
+#mp2tt {
+	font-size: 8pt;
+	color: black;
+	margin: 5px 0 0.5em 0;
+	text-align: center;
+}
+
+#mp2tt a {
+	color: blue;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#mp2table {
+	width : 100%;
+	margin: 0 auto;
+	align-content: center;
+	padding: 3em 10em 2em 10em;
+}
+
+#mp2table td {
+	font-size: 9pt;
+	height: 30px;
+	width: 130px;
+	align-content: center;
+}
+
+#mp2td2 {
+	display: inline-block;
+	margin: 0 0 0 10px;
+	position: relative;
+}
+
+.mp2card {
+	padding: 0.5em 0 0.5em 0.5em;
+
+	flex-direction: column;
+	min-width: 0;
+	border: 1px solid #A4A4A4;
+	background-clip: border-box;
+	border-radius: .25rem;
+	text-align: left;
+	font-size: 9pt;
+	background-color: #dcdcdc6e;
+}
+.card1 {
+	width: 215px;
+	display: flex;
+}
+
+.in {
+	background-color: #fff;
+}
+
+.in:focus {
+	outline: none;
+	background-color: #fef4f3;
+	border: 1px solid #F8CAC6;
+	color: #DE6562;
+}
+
+.card2 {
+	width: 55px;
+	display: inline-block;
+}
+
+.card3 {
+	width: 45px;
+	display: inline-block;
+}
+
+#mp2pfimg {
+	width: 130px;
+	font-family: NanumSquareRound;
+}
+
+#mp2eye,
+#mp2eye2,
+#mp2eye3 {
+	width: 20px;
+    position: absolute;
+    top: 3.5px;
+    right: 6px;
+    cursor: pointer;
+}
+
+#mp2bgimg {
+	width: 200px;
+	font-family: NanumSquareRound;
+}
+
+#mp2ok {
+	background-color: #DE6562;
+	border-radius: 4px;
+	color: #ffffff !important;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 500;
+	height: 2.5em;
+	line-height: 2.5em;
+	padding: 0 2.2em;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	white-space: nowrap;
+	font-size: 0.8em;
+}
+
+#mp2btn2 {
+	margin: 20px auto;
+	width: 300px;
+	text-align: center;
+}
+
+#mp2cc {
+	border: 1px solid #DE6562;
+	border-radius: 4px;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 700;
+	height: 2.5em;
+	line-height: 2.5em;
+	padding: 0 2.2em;
+	text-align: center;
+	text-transform: uppercase;
+	white-space: nowrap;
+	font-size: 0.8em;
+}
+
+#mp2cc a {
+	text-decoration: none;
+	color: #000;
+	font-weight: 500;
+}
+
+#mp2pwchange,
+#mp2pwchange2,
+#mp2pwcheckfalse,
+#mp2pwcheck {
+	font-size: 7pt;
+    margin: 0 0 6px 12px;
+    color: #DE6562;
+}
+
+input[type="file"] {
+	font-family: NanumSquareRound;
+}
+
+label {
+	cursor: pointer;
+}
+
+#profileForm{
+	position : relative;
+	margin : 0 auto;
+	border: 1px solid #ddd;
+	border-radius: 20px; 
+	width: 50em;
+	align-content: center;
+}

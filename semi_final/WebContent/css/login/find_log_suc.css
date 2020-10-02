@@ -1,0 +1,121 @@
+@charset "UTF-8";
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, a, address, em, img, strong, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, video {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    border: 0;
+    vertical-align: baseline;
+}
+
+body {
+    line-height: 1.5;
+    color: #000;
+    font-size: 12px;
+    background: #f7f7f7;
+}
+
+#find_log_suc #ac_warp {
+    position: relative;
+    min-width: 320px;
+    max-width: 600px;
+    background: #fff;
+    margin: 40px auto 0;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+    border-radius: 8px;
+}
+
+#find_log_suc #header {
+    position: relative;
+    height: 56px;
+    overflow: hidden;
+    background: #F8CAC6;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+
+#find_log_suc #header .logo{
+	display: block;
+    width: 160px;
+    margin: 0 auto;
+}
+
+#find_container{
+	position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    
+}
+
+/* 회원유형 */
+#find_container #title_choose {
+    height: 20px;
+    color: #000;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -1px;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    padding: 50px 10px 30px;
+    margin: 0 40px;
+    font-weight: bold;
+}
+
+#find_container #welcome_id{
+	align-content: center;
+	
+}
+
+#find_container #welcome_id p{
+	color: #666;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	padding: 90px 0 20px 0; 
+	line-height: 50px;
+	
+}
+
+#find_container #go_to_login p a:link {text-decoration: underline; color: #999}
+#find_container #go_to_login p a:visited {text-decoration: underline; color: #999}
+
+#find_container #go_to_login p a:hover{
+	color: #DE6562;
+}
+
+#find_container #go_to_login{
+
+	text-align: center;
+	margin: 20px;
+}
+#find_container #go_to_login p{
+	
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: bold;
+	
+	
+}
+
+#find_container .btn_bottom {
+    clear: both;
+    text-align: center;
+    background: #fff;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+#find_container .btn_bottom button {
+    width: 200px;
+    height: 40px;
+    overflow: hidden;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: -1px;
+    border-radius: 5px;
+    background: #DE6562;
+    vertical-align: top;
+    cursor: pointer;
+    border: #DE6562;
+    
+}
+

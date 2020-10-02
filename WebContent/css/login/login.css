@@ -1,0 +1,260 @@
+@charset "UTF-8";
+/* 로그인폼 */
+#container > div{
+	position: relative;
+    width: 500px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background: #fff;
+    margin: 50px auto;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+/* 로그인박스안에 login 글자부분 */
+#container p {
+    height: 30px;
+    color: #000;
+    font-size: 30px;
+    line-height: 29px;
+    letter-spacing: -1px;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    padding: 70px 10px 30px;
+    margin: 0 40px;
+}
+
+/* 로그인 입력창 부분 */
+#container .login_box{
+
+	position: relati40px;
+    margin: 0 55px;
+}
+
+#container .login_box dl {
+    padding-top: 20px;
+}
+
+.blind {
+    position: absolute !important;
+    font-size: 0 !important;
+    visibility: hidden !important;
+}
+
+#container .login_box dd {
+    clear: both;
+    padding-top: 20px;
+}
+
+/* 입력창 블록 */
+#container .login_box .input_area {
+    position: relative;
+    display: block;
+    height: 40px;
+    overflow: hidden;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 5px;
+    background: #fff;
+    box-sizing: border-box;   
+}
+
+/* 입력되는 글자 부분 */
+#container .login_box .input_area input {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 38px;
+    overflow: hidden;
+    color: #000;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: -1px;
+    border: 0;
+    border-radius: 5px;
+    background: #fff;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    outline: 0;
+    -webkit-appearance: none;
+}
+
+#container .login_box .input_area input:focus{
+	border : 2px solid #B43233;
+	background: rgba(222, 101, 98, 0.15);
+}
+
+
+#container .login_box .input_area input:focus::placeholder{
+	color: #B43233
+}
+
+/* 로그인 버튼 */
+#container .login_box .btn_login {
+    clear: both;
+    text-align: center;
+    margin-top: 25px;
+}
+#container .login_box .btn_login button {
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: -1px;
+    border-radius: 5px;
+    background: #DE6562;
+    vertical-align: top;
+    cursor: pointer;
+    border: #DE6562;
+}
+
+
+/* 로그인상태 유지 */
+#container .login_box .check_keep_login {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    white-space: nowrap;
+    margin: 10px;
+}
+
+/* 로그인상태 유지 체크박스 */
+#container .login_box .check_keep_login input {
+    float: left;
+    margin: 3px 5px 0 1px;
+}
+
+#container .login_box .check_keep_login label {
+    position: relative;
+    display: inline-block;
+    height: 24px;
+    color: #404040;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: -1px;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+
+/* 아이디 |비밀번호| 회원가입 */
+#container .login_menu {
+    padding: 20px 0 30px;
+    margin: 0 100px;
+}
+
+#container .login_menu ul {
+    height: 12px;
+    font-size: 0;
+    white-space: nowrap;
+}
+
+#container .login_menu li {
+    position: relative;
+    display: inline-block;
+    line-height: 12px;
+    text-align: center;
+    vertical-align: top;
+}
+
+#container .login_menu li a {
+    color: #909090;
+    font-size: 14px;
+    letter-spacing: -1px;
+    margin: 15px;
+}
+
+ol, ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+/* 중간 짝대기 */
+#container .login_menu li:first-child + li:before {
+    position: absolute;
+    top: -3px;
+    left: -2px;
+    width: 1px;
+    height: 13px;
+    background: #bbb;
+    content: '';
+    margin: 2px;
+}
+#container .login_menu li:first-child + li:after {
+    position: absolute;
+    top: -3px;
+    left: 83spx; 
+    width: 1px;
+    height: 13px;
+    background: #bbb;
+    content: '';
+    margin: 2px;
+}
+
+
+/* 소셜로그인 */
+#container .social_login {
+    padding: 0 80px 62px;
+}
+
+#container .social_login li a {
+    position: relative;
+    display: block;
+    height: 40px;
+    overflow: hidden;
+    color: #888;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1px;
+    border: 1px solid #ededed;
+    border-radius: 5px;
+    background: #fff;
+    padding-left: 23px;
+    box-sizing: border-box;
+}
+
+
+
+#footer {
+    clear: both;
+    text-align: center;
+    padding: 80px 0 50px;
+}
+
+#footer .links {
+    font-size: 0;
+    white-space: nowrap;
+}
+
+#footer .links li:first-child {
+    padding: 0;
+    margin: 0;
+}
+
+#footer .links li {
+    position: relative;
+    display: inline-block;
+    color: #999;
+    line-height: 18px;
+    padding-left: 14px;
+    margin-left: 14px;
+    vertical-align: top;
+}
+
+#footer .links li a {
+    color: #999;
+    font-size: 12px;
+    letter-spacing: -0.5px;
+}
+
+
+#footer .links li:before {
+    position: absolute;
+    top: 4px;
+    left: 0; 
+    width: 1px;
+    height: 12px;
+    background: #dcdcdc;
+    content: '';
+}
